@@ -7,10 +7,12 @@
 - **Profesor:** Lic. Matías Velásquez  
 
 ## Integrantes del Grupo
-- Leandro Manuel Berro  |  Mat: 155667  |  Rol: Documentador y Coordinador de Repositorio 
-- Rocio Dambra  |  Mat: xxxxx  |  Rol: Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
-- Kevin Abel Pari Callapa  |  Mat: xxxxx  |  Rol: Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
-- Valeria Silva  |Mat: xxxxx  |  Rol: Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
+|NOMBRE Y APELLIDO|MATRICULA|ROL|
+|:---|:---:|---:
+|Leandro Manuel Berro|155667|Documentador y Coordinador de Repositorio 
+|Rocio Dambra|xxxxx|Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
+|Kevin Abel Pari Callapa|xxxxx|Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
+|Valeria Silva|xxxxx|Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
 
 ## Objetivos generales
 Sentar las bases conceptuales y de diseño aplicando programación orientada a objetos (POO) y buenas prácticas de trabajo colaborativo con herramientas como GitHub, plantuml y asistentes de IA.
