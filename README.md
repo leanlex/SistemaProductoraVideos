@@ -15,7 +15,7 @@
 |Valeria Silva|xxxxx|Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
 
 ## Objetivos generales
-Sentar las bases conceptuales y de diseño aplicando programación orientada a objetos (POO) y buenas prácticas de trabajo colaborativo con herramientas como GitHub, plantuml y asistentes de IA.
+Sentar bases conceptuales y de diseño aplicando programación orientada a objetos (POO). Generar buenas prácticas de trabajo colaborativo con herramientas como GitHub, plantuml y asistentes de IA.
 
 ## Objetivo del Entregable
-Diseñar un sistema de gestión de proyectos audiovisuales. Trabajar de manera colaborativa como en un proyecto real. 
+Diseñar un sistema de gestión de proyectos audiovisuales en base a las necesidades del cliente **Vizion Estudio** 
