@@ -27,7 +27,9 @@ Este modelo de programación facilita el modelado de sistemas complejos a partir
 
 ## Fundamentos de POO
 **Abstracción:** Consiste en simplificar la complejidad del mundo real modelando solo los aspectos esenciales relevantes para el sistema.
+
 **Encapsulamiento:** Es el proceso de ocultar la implementación interna de un objeto, permitiendo el acceso solo mediante métodos controlados.
+
 **Herencia:** Es un mecanismo que permite que un objeto herede propiedades y comportamientos de otro objeto. Esto fomenta la reutilización del código y la creación de jerarquías de clases.
 
 **Polimorfismo:** Se refiere a la capacidad de los objetos de una misma jerarquía de clases para responder de manera diferente a un mismo mensaje.
