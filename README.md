@@ -7,15 +7,14 @@
 - **Profesor:** Lic. Matías Velásquez  
 
 ## Integrantes del Grupo
-- **Leandro Manuel Berro** - Mat: 155667
-**Rocio Dambra** - Mat:
-**Kevin Abel Pari Callapa** - Mat:
-**Valeria Silva** - Mat: 
+- **Leandro Manuel Berro**. Mat: 155667. Rol: Documentador y Coordinador de Repositorio 
+- **Rocio Dambra**. Mat:
+- **Kevin Abel Pari Callapa**. Mat:
+- **Valeria Silva**. Mat: 
 
 Rol: Analista de Requerimientos  
 Rol: Modelador de Casos de Uso  
 Rol: Diseñador de Clases Iniciales  
-Rol: Documentador y Coordinador de Repositorio 
 
 ## Objetivo del Entregable
 Diseñar un sistema de gestión de proyectos audiovisuales. Trabajar de manera colaborativa como en un proyecto real. 
