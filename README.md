@@ -21,8 +21,7 @@ Sentar bases conceptuales y de diseño aplicando programación orientada a objet
 Diseñar un sistema de gestión de proyectos audiovisuales en base a las necesidades del cliente **Vizion Estudio** 
 
 ## Paradigma de orientado a objetos
-Es un modelo de programación que organiza el software en torno a objetos que contiene tanto datos como comportamientos.
-Estos objetos representan entidades del mundo real y ellos tiene *Atributos* (datos o caracteristicas) y *Métodos* (comportamiento o funciones).
+Es un modelo de programación que organiza el software en torno a objetos. Estos objetos representan entidades del mundo real y combina *Atributos* (datos o caracteristicas) y *Métodos* (comportamiento o funciones).
 Este modelo de programación facilita el modelado de sistemas complejos a partir de ejemplos concretos de la realidad. Permite una buena organización del código, favoreciendo la reutilización, evitando duplicación. Promueve la colaboración y se adapta bien a proyectos que evolucionan.
 
 ## Fundamentos de POO
