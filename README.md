@@ -7,10 +7,10 @@
 - **Profesor:** Lic. Matías Velásquez  
 
 ## Integrantes del Grupo
-- **Leandro Manuel Berro. Mat**: 155667. **Rol**: Documentador y Coordinador de Repositorio 
-- **Rocio Dambra. Mat**: xxxxx. **Rol**: Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
-- **Kevin Abel Pari Callapa. Mat**: xxxxx. **Rol**: Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
-- **Valeria Silva. Mat**: xxxxx. **Rol**: Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
+- **Leandro Manuel Berro. | Mat**: 155667. **| Rol**: Documentador y Coordinador de Repositorio 
+- **Rocio Dambra. | Mat**: xxxxx. **| Rol**: Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
+- **Kevin Abel Pari Callapa. | Mat**: xxxxx. **| Rol**: Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
+- **Valeria Silva. | Mat**: xxxxx. **| Rol**: Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
 
 Rol: Analista de Requerimientos  
 Rol: Modelador de Casos de Uso  
