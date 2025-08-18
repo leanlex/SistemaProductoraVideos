@@ -7,10 +7,10 @@
 - **Profesor:** Lic. Matías Velásquez  
 
 ## Integrantes del Grupo
-Leandro Manuel Berro - Mat: 155667
-Rocio Dambra - Mat:
-Kevin Abel Pari Callapa - Mat:
-Valeria Silva - Mat: 
+- **Leandro Manuel Berro** - Mat: 155667
+**Rocio Dambra** - Mat:
+**Kevin Abel Pari Callapa** - Mat:
+**Valeria Silva** - Mat: 
 
 Rol: Analista de Requerimientos  
 Rol: Modelador de Casos de Uso  
