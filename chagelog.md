@@ -7,29 +7,36 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 ## [Unreleased]
 
 ### Added
-- [feature/estructura-base] Estructura inicial del proyecto.  
-  PR: [#1](link) - @leanlex (Coordinador / DevOps)
-
-- [feature/ia-prompts] Documentación de 5 prompts de IA.  
-  PR: [#4](link) - @usuario4 (Especialista en IA)
+- 
 
 ### Changed
-- [feature/readme-y-mockup] Actualización README.md con mockup.  
-  PR: [#3](link) - @usuario3 (Documentador / Diseñador UX)
-
-- [feature/index-html] Estructura HTML5 básica.  
-  PR: [#2](link) - @usuario2 (Desarrollador Frontend)
+- 
 
 ### Fixed
-- [feature/fix-rutas] Corrección de rutas en README.md.  
-  PR: [#5](link) - @usuario3 (Documentador / Diseñador UX)
+- 
 
 ---
 
-## [Release Actividad Obligatoria N°1] - 2025-08-10
+## [Release Actividad Obligatoria N°1] - 2025-08-25
 
-Aquí se listarán todas las Pull Requests que entraron en esta release.  
-Actualmente están en la sección [Unreleased] porque sólo están en la rama `develop`.
+### Added
+- [feature/doc-coord-repo-md] Creación de `README.md` con carátula, objetivo y enlace a anexos.  
+  PR: [#3](https://github.com/leanlex/SistemaProductoraVideos/pull/3) - @leanlex (Coordinador / Documentador)
+
+- [feature/doc-coord-repo-md] Creación de `anexos/anexos.md` con sección inicial para diagramas y diseños.  
+  PR: [#3](https://github.com/leanlex/SistemaProductoraVideos/pull/3) - @leanlex (Coordinador / Documentador)
+
+- [feature/doc-coord-repo-md] Inclusión de mejoras integradas en la rama Develop tras la sincronización.  
+  PR: [#4](https://github.com/leanlex/SistemaProductoraVideos/pull/4) - @leanlex (Coordinador / Documentador)
+
+### Changed
+- [feature/doc-coord-repo-md] Ajustes en `README.md` y `anexos.md` + limpieza de conflictos tras rebase.  
+  PR: [#4](https://github.com/leanlex/SistemaProductoraVideos/pull/4) - @leanlex (Coordinador / Documentador)
+
+### Fixed
+- [feature/doc-coord-repo-md] Resolución de conflictos entre `develop` y `feature/doc-coord-repo-md` durante integración.  
+  PR: [#3](https://github.com/leanlex/SistemaProductoraVideos/pull/3) - @leanlex (Coordinador / Documentador)
+
 
 ---
 
