@@ -9,8 +9,7 @@
 ## Integrantes del Grupo
 |NOMBRE Y APELLIDO|MATRICULA|ROL|
 |:---|:---:|:---|
-|Leandro Manuel Berro|155667|Documentador y Coordinador de Repositorio / Diseñador de Clases Iniciales
-|Rocio Dambra|xxxxx|Analista de Requerimientos / Modelador de Casos de Uso / Diseñador de Clases Iniciales
+|Leandro Manuel Berro|155667|Documentador y Coordinador de Repositorio / Diseñador de Clases Iniciales / Modelador de Casos de Uso
 |Kevin Abel Pari Callapa|153712|Analista de Requerimientos
 
 
