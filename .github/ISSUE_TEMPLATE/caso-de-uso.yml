@@ -1,0 +1,60 @@
+name: "Caso de Uso"
+description: "Plantilla estandarizada para documentar un Caso de Uso (CU)"
+title: "CU: <nombre breve> — <acción principal>"
+labels: ["use-case"]
+body:
+  - type: input
+    id: codigo
+    attributes:
+      label: "Código del CU"
+      placeholder: "CU1"
+    validations: { required: true }
+  - type: input
+    id: nombre
+    attributes:
+      label: "Nombre del caso de uso"
+      placeholder: "Crear proyecto y configurar etapas"
+    validations: { required: true }
+  - type: textarea
+    id: actores
+    attributes:
+      label: "Actores"
+      placeholder: "Productora/Coordinadora\nEditor/Operador\nSistema"
+    validations: { required: true }
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: "Descripción breve"
+    validations: { required: true }
+  - type: textarea
+    id: flujo
+    attributes:
+      label: "Flujo principal (≥ 5 pasos)"
+      placeholder: "1. ...\n2. ...\n3. ...\n4. ...\n5. ..."
+    validations: { required: true }
+  - type: textarea
+    id: pre
+    attributes:
+      label: "Precondiciones"
+    validations: { required: true }
+  - type: textarea
+    id: post
+    attributes:
+      label: "Postcondiciones"
+    validations: { required: true }
+  - type: textarea
+    id: enlaces
+    attributes:
+      label: "Enlaces/Adjuntos"
+      description: "Drive, PR relacionada, etc."
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "Sección agregada en anexos/introduccion.md"
+          required: true
+        - label: "PR abierta hacia develop"
+          required: true
+        - label: "Este Issue está enlazado en la PR (Closes #)"
+          required: true
