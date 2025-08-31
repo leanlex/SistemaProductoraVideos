@@ -29,6 +29,10 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/doc-coord-repo-md] Inclusión de mejoras integradas en la rama Develop tras la sincronización.  
   PR: [#4](https://github.com/leanlex/SistemaProductoraVideos/pull/4) - @leanlex (Coordinador / Documentador)
 
+- [feature/doc-coord-repo-md] Inclusión de templates Issue y PR.  
+  PR: [#7](https://github.com/leanlex/SistemaProductoraVideos/pull/7) - @leanlex (Coordinador / Documentador)
+
+
 ### Changed
 - [feature/doc-coord-repo-md] Ajustes en `README.md` y `anexos.md` + limpieza de conflictos tras rebase.  
   PR: [#4](https://github.com/leanlex/SistemaProductoraVideos/pull/4) - @leanlex (Coordinador / Documentador)
@@ -37,6 +41,14 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/doc-coord-repo-md] Resolución de conflictos entre `develop` y `feature/doc-coord-repo-md` durante integración.  
   PR: [#3](https://github.com/leanlex/SistemaProductoraVideos/pull/3) - @leanlex (Coordinador / Documentador)
 
+- [feature/doc-coord-repo-md] Actualización de integrantes de equipo en `README.md`.  
+  PR: [#8](https://github.com/leanlex/SistemaProductoraVideos/pull/8) - @leanlex (Coordinador / Documentador)
+
+- [feature/modelador-casos-uso-update-use-cas-1] Se suben diagramas .puml y .png, se actualiza `introduccion.md`.  
+  PR: [#9](https://github.com/leanlex/SistemaProductoraVideos/pull/9) - @leanlex (Coordinador / Documentador)
+
+- [feature/doc-coord-repo-md] Se actualizan `chagelog.md`.  
+  PR: [#10](https://github.com/leanlex/SistemaProductoraVideos/pull/10) - @leanlex (Coordinador / Documentador)
 
 ---
 
