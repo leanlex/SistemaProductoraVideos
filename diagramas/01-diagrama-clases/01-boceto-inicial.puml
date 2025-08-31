@@ -1,0 +1,24 @@
+@startuml
+left to right direction
+actor "Productora/Coordinadora" as Productora
+actor "Editor/Operador" as Editor
+actor "Asistente de Producción" as Asistente
+actor "Sistema" as Sistema
+
+rectangle "Gestión de Proyectos Audiovisuales" {
+  usecase "CU1: Crear proyecto y configurar etapas" as CU1
+  usecase "CU2: Avanzar etapa y notificar" as CU2
+  usecase "CU3: Asignar/Reasignar tareas" as CU3
+  usecase "CU4: Registrar incidencias y comentarios" as CU4
+  usecase "CU5: Consultar tablero y estadísticas" as CU5
+}
+
+Productora --> CU1
+Productora --> CU3
+Productora --> CU5
+Editor --> CU2
+Editor --> CU4
+Asistente --> CU4
+Sistema ..> CU2 : notificaciones
+Sistema ..> CU5 : KPIs/Reportes
+@enduml
