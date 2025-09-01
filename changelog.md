@@ -32,8 +32,13 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/doc-coord-repo-md] Inclusión de templates Issue y PR.  
   PR: [#7](https://github.com/leanlex/SistemaProductoraVideos/pull/7) - @leanlex (Coordinador / Documentador)
 
+<<<<<<< HEAD:chagelog.md
 - [feature/analista-requerimientos-add-introduccion-md] Inclusión de consigna, Requisitos Funcionales y No Funcionales  
   PR: [#13](https://github.com/leanlex/SistemaProductoraVideos/pull/13) - @leanlex (Analista de requerimientos)
+=======
+- [feature/doc-coord-repo-md] Se agregan datos a anexos.md, archivos fuente. Se actualiza introduccion.md  
+  PR: [#16](https://github.com/leanlex/SistemaProductoraVideos/pull/16) - @leanlex (Coordinador / Documentador)
+>>>>>>> 4807767 (Docs: corrige nombre a changelog.md, actualiza anexos y adjuntos):changelog.md
 
 ### Changed
 - [feature/doc-coord-repo-md] Ajustes en `README.md` y `anexos.md` + limpieza de conflictos tras rebase.  
