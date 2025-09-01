@@ -1,0 +1,32 @@
+name: "Requisito funcional (RF)"
+description: Registrar un requisito funcional del sistema
+labels: ["requisito", "RF"]
+body:
+  - type: input
+    id: codigo
+    attributes:
+      label: Código (ej. RF1)
+      placeholder: RF1
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: Qué debe hacer el sistema
+      placeholder: "El sistema debe ..."
+    validations:
+      required: true
+  - type: textarea
+    id: criterio
+    attributes:
+      label: Criterios de aceptación
+      description: Condiciones objetivas para darlo por hecho
+      placeholder: "- Dado...\n- Cuando...\n- Entonces..."
+  - type: checkboxes
+    id: alcance
+    attributes:
+      label: Alcance
+      options:
+        - label: Incluido en v1 (iteración actual)
+        - label: Diferido (futuro)
