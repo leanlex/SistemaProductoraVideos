@@ -1,3 +1,38 @@
+## Paradigma de orientado a objetos
+Es un modelo de programación que organiza el software en torno a objetos. Estos objetos representan entidades del mundo real y combina *Atributos* (datos o caracteristicas) y *Métodos* (comportamiento o funciones).
+Este modelo de programación facilita el modelado de sistemas complejos a partir de ejemplos concretos de la realidad. Permite una buena organización del código, favoreciendo la reutilización, evitando duplicación. Promueve la colaboración y se adapta bien a proyectos que evolucionan.
+
+---
+## Fundamentos de POO
+**Abstracción:** Consiste en simplificar la complejidad del mundo real modelando solo los aspectos esenciales relevantes para el sistema.
+
+**Encapsulamiento:** Es el proceso de ocultar la implementación interna de un objeto, permitiendo el acceso solo mediante métodos controlados.
+
+**Herencia:** Es un mecanismo que permite que un objeto herede propiedades y comportamientos de otro objeto. Esto fomenta la reutilización del código y la creación de jerarquías de clases.
+
+**Polimorfismo:** Se refiere a la capacidad de los objetos de una misma jerarquía de clases para responder de manera diferente a un mismo mensaje.
+
+---
+## Requisitos iniciales del sistema
+
+### Requisitos funcionales (RF)
+- **RF1. Gestión de proyectos por etapas.** El sistema debe permitir crear proyectos y gestionarlos por etapas (grabación, edición, revisión, publicación) y que estas puedan **variar** por proyecto.
+- **RF2. Responsable por etapa y asignación de tareas.** Cada etapa puede tener un **responsable distinto**; las tareas suelen asignarse a una persona (posible co-asignación futura).
+- **RF3. Notificaciones automáticas.** Enviar avisos por **mail y WhatsApp** cuando se complete una etapa o se asigne una nueva tarea.
+- **RF4. Registro centralizado de enlaces.** Guardar **links** a Drive/Vimeo u otras plataformas asociados al proyecto/etapas.
+- **RF5. Vista de estado / tablero.** Mostrar un tablero para ver de un vistazo estados, tareas pendientes y “quién hace qué”.
+- **RF6. Incidencias y entregas versionadas.** Registrar **observaciones/incidencias** por etapa y permitir **versionar** entregas (v1, v2…).
+
+### Requisitos no funcionales (RNF)
+- **RNF1. Usabilidad.** Interfaz **simple** (lista de proyectos, **filtros** y botones rápidos para cargar avances).
+- **RNF2. Oportunidad de notificación.** Las alertas deben ayudar a que “todos se enteren **rápido**” (preferencia por WhatsApp además de mail).
+- **RNF3. Flexibilidad del flujo.** Posibilidad de **agregar nuevas etapas** sin fricción (p. ej., animación, subtitulado).
+- **RNF4. Trazabilidad.** Mantener **histórico** de incidencias y comentarios internos por etapa.
+- **RNF5. Reportabilidad.** Estadísticas simples (mensuales), y también por **cliente/tipo/etapa** y tiempos promedio.
+- **RNF6. Evolutividad.** Prever una futura extensión para que **clientes** consulten/ **aprueben** etapas (no en v1).
+
+
+---
 ## Casos de uso
 
 A continuación se documentan los actores y cinco casos de uso iniciales del sistema.
@@ -93,10 +128,19 @@ A continuación se documentan los actores y cinco casos de uso iniciales del sis
 **Precondiciones:** Existencia de datos de proyectos/etapas.  
 **Postcondiciones:** Información de seguimiento disponible; reportes generados/compartidos.
 
-**DIAGRAMA DE CASO DE USOS:**
+**DIAGRAMAS DE CLASES:**
 
 [Ver código PlantUML](../diagramas/01-diagrama-clases/01-boceto-inicial.puml)
 
 
 ![01-boceto-inicial.png](../diagramas/01-diagrama-clases/01-boceto-inicial.png)
 
+**DIAGRAMAS DE CASOS DE USO:**
+
+[Ver código PlantUML](../diagramas/02-diagrama-casos-uso/01-boceto-inicial.puml)
+
+
+![01-boceto-inicial.png](../diagramas/02-diagrama-casos-uso/01-boceto-inicial.png)
+
+## Enlace a la consigna
+[📄 Consigna – Actividad Obligatoria N.º 1](./ACTIVIDAD_OBLIGATORIA_N_1.pdf)
