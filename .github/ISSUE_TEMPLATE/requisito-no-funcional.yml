@@ -1,0 +1,23 @@
+name: "Requisito no funcional (RNF)"
+description: Registrar un requisito no funcional
+labels: ["requisito", "RNF"]
+body:
+  - type: input
+    id: codigo
+    attributes:
+      label: Código (ej. RNF1)
+      placeholder: RNF1
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      placeholder: "El sistema debe ser ..."
+    validations:
+      required: true
+  - type: textarea
+    id: criterio
+    attributes:
+      label: Criterios de aceptación / Métricas
+      placeholder: "- Tiempo de respuesta < 2s en tablero\n- ..."
