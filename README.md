@@ -9,9 +9,7 @@
 ## Integrantes del Grupo
 |NOMBRE Y APELLIDO|MATRICULA|ROL|
 |:---|:---:|:---|
-|Leandro Manuel Berro|155667|Documentador y Coordinador de Repositorio / Diseñador de Clases Iniciales / Modelador de Casos de Uso
-|Kevin Abel Pari Callapa|153712|Analista de Requerimientos
-
+|Leandro Manuel Berro|155667|Documentador y Coordinador de Repositorio / Diseñador de Clases Iniciales / Modelador de Casos de Uso / Analista de Requerimientos
 
 ## Descripción del Proyecto
 Sistema web para digitalizar la gestión de proyectos audiovisuales de Vizion Estudio, una pequeña productora que necesita centralizar el control de sus proyectos, etapas, clientes y generar reportes de manera eficiente.
