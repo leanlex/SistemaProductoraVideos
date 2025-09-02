@@ -63,9 +63,3 @@
 
 ---
 
-## 6. Enlaces útiles
-- 📄 **Consigna:** `anexos/ACTIVIDAD_OBLIGATORIA_N_1.pdf`
-- 🔁 **PRs relevantes (ejemplos de tu repo):** #12 (Docs/Coord), #13 (Clases), #14 (Analista)
-- 🚀 **PR de Release:** *(agregar link cuando la abras)* `release/actividad-obligatoria-1 → main`
-- 🏷️ **Tag/Release:** *(si creás v0.1, enlazar aquí)*
-
