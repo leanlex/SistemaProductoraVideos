@@ -1,0 +1,143 @@
+@startuml
+title Sistema Productora de Videos - Boceto inicial de clases (v1)
+
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+
+' ===== Clases principales =====
+class Proyecto {
+  +id: UUID
+  +titulo: String
+  +tipo: TipoProyecto
+  +fechaInicio: Date
+  +fechaEntregaEstimada: Date
+  +estado: EstadoProyecto
+  +tiempoTotal(): Duration
+}
+
+class Cliente {
+  +id: UUID
+  +nombre: String
+  +email: String
+  +telefono: String
+}
+
+class Etapa {
+  +id: UUID
+  +nombre: String
+  +orden: int
+  +estado: EstadoEtapa
+  +fechaEstimadaFin: Date
+  +fechaRealFin: Date
+}
+
+class Tarea {
+  +id: UUID
+  +titulo: String
+  +descripcion: String
+  +prioridad: Prioridad
+  +estado: EstadoTarea
+  +fechaLimite: Date
+  +asignarA(u: Usuario)
+  +marcarCompleta()
+}
+
+class Usuario {
+  +id: UUID
+  +nombre: String
+  +email: String
+  +telefono: String
+}
+
+class Rol {
+  +nombre: String
+  +descripcion: String
+}
+
+class Enlace {
+  +id: UUID
+  +url: String
+  +plataforma: Plataforma
+  +descripcion: String
+}
+
+class Incidencia {
+  +id: UUID
+  +descripcion: String
+  +fecha: Date
+}
+
+class Entrega {
+  +id: UUID
+  +version: int
+  +url: String
+  +fecha: Date
+  +etiquetas: String
+}
+
+class Notificacion {
+  +id: UUID
+  +canal: CanalNotificacion
+  +mensaje: String
+  +enviar(): void
+}
+
+' ===== Enumeraciones =====
+enum EstadoProyecto {
+  Planificado
+  EnProgreso
+  Pausado
+  Finalizado
+}
+
+enum EstadoEtapa {
+  Pendiente
+  EnCurso
+  Lista
+  Cerrada
+}
+
+enum EstadoTarea {
+  Pendiente
+  EnCurso
+  Bloqueada
+  Hecha
+}
+
+enum Prioridad {
+  Baja
+  Media
+  Alta
+}
+
+enum TipoProyecto {
+  Publicidad
+  Videoclip
+  Institucional
+  Otro
+}
+
+enum CanalNotificacion {
+  Email
+  WhatsApp
+}
+
+enum Plataforma {
+  Drive
+  Vimeo
+  Otro
+}
+
+' ===== Relaciones =====
+Proyecto "1" --> "1" Cliente
+Proyecto "1" o-- "*" Etapa
+Etapa "1" o-- "*" Tarea
+Etapa "1" --> "0..1" Usuario : responsable
+Tarea "0..*" --> "1" Usuario : asignadoA
+Proyecto "0..*" o-- "*" Enlace
+Etapa "0..*" o-- "*" Incidencia
+Etapa "0..*" o-- "*" Entrega
+Tarea "0..*" --> "0..*" Notificacion : dispara >
+Usuario "1" -- "1..*" Rol : tiene >
+
+@enduml
